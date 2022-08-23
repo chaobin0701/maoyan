@@ -1,0 +1,447 @@
+.content{
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 62px;
+}
+.main{
+    padding: 0 18px;
+    margin-top: -62px;
+}
+.content-layer{
+    overflow: hidden;
+}
+.content-layer{
+    width: 802px;
+}
+.content-layer .panel{
+    margin: 62px 0 0;
+    width: 750px;
+}
+.penel-content dl dd img{
+    width:160px;
+    height: 220px;
+    background: #fff;
+}
+/* 文字 */
+.penel-header{
+    width: 740px;
+    height: 26px;
+    line-height: 26px;
+}
+.penel-header .fl{
+    font-size: 26px;
+    color: #ef4236;
+}
+.penel-header .fr{
+    font-size: 14px;
+    color: #ef4236;
+}
+/* 电影 */
+.penel-content{
+    overflow: hidden;
+    width: 100%;
+    margin-top: 23px;
+}
+.movie-list{
+    margin: -29px 0 20px -25px;
+}
+.movie-list  dd{
+    margin: 30px 0 0 30px;
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+}
+.movie-list div{
+    position: relative;
+    width: 160px;
+    height: 38.75px;
+    text-align: center;
+    line-height: 38.75px;
+    border: 1px solid rgb(204, 204, 204);
+    border-top:0 ;
+    cursor: pointer;
+}
+.movie-list div a span{
+    color: #ef4238;
+}
+
+    /* 效果 */
+.movie-list div:hover{
+    background: #ef4238;
+    box-shadow: 1px 2px 1.5px #c3c3c3;
+}
+.movie-list div:hover a span {
+    color: #fff;
+}
+
+/* 即将热映 */
+    /* 颜色：#2D98f3  */
+
+
+/* 右边 */
+.aside{
+    width: 360px;
+}
+/* 今日票房  */
+.ranking-box-wrapper .panel-header{
+    width: 360px;
+}
+.ranking-box-wrapper .panel-header h2{
+    font-size: 26px;
+    color: #ef4236;
+    font-weight: 500;
+}
+.panel-content{
+    margin-top: 23px;
+}
+.ranking-index-1{
+    width: 360px;
+    height: 80.5px;
+    border: 1px solid #efefef;
+    cursor: pointer;
+}
+.ranking-index-1:hover .ranking-content{
+    background: #f6f6f6;
+}
+.ranking-content span{
+    line-height: 40px;
+    padding-left: 10px;
+    font-size: 18px;
+}
+.ranking-content p{
+    line-height: 30px ; 
+    padding-left: 10px;
+    font-size: 14px;
+    color: #ef4236;
+}
+.ranking-index-1 a{
+    display: block;
+    width: 360px;
+    height: 80.5px;
+}
+ .ranking-content{
+    height: 80.5px;
+    width: 240px;
+    position: relative;
+}
+.ranking-content{
+    display: inline;
+}
+.ranking-index-1 a img{
+    float: left;
+    width: 120px;
+    height: 78px;
+}
+.ranking-item{
+    width: 360px;
+    height: 55px;
+    padding: 10px 0;
+}
+
+
+.ranking-index-2 .top,.ranking-index-3 .top{
+    color: #ef4236;
+    font-size: 18px;
+    font-style: italic;
+    margin-right: 6px;
+}
+.ranking-index-4 .top,.ranking-index-5 .top{
+    color: #999999;
+    font-size: 18px;
+    font-style: italic;
+    margin-right: 6px;
+}
+.ranking-item p{
+    float: right;
+    font-size: 14px;
+    color: #ef4236;
+}
+/* 今日大盘 */
+.box-total-wrapper{
+    margin-top: 29px;
+    background-color: #fdfdfd;
+    border: 1px solid #efefef;
+    padding-right: 15px;
+}
+.box-total-wrapper h3{
+    width: 30px;
+    height: 103px;
+    background: #ef4328;
+    color: #fff;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 20px;
+    float: left;
+    padding: 10px 0;
+}
+.box-total-wrapper div{
+    font-size: 14px;
+    margin-left: 54px;
+    color: #ef4238;
+    padding-top: 20px;
+}
+.box-total-wrapper div p span{
+    font-size: 30px;
+}
+.box-total-wrapper div p{
+    height: 40px;
+}
+.box-total-wrapper div p a{
+    font-size: 13px;
+    color: #ef4238;
+    float: right;
+    margin-top: 17px;
+}
+.meta-info{
+    color: #999;
+    padding-top: 10px;
+    font-size: 14px;
+}
+.box-total-wrapper div .meta-info  span{
+    color: #999;
+    font-size: 14px;
+}
+
+/* 最受期待 */
+.most-expect-wrapper{
+    margin-top: 80px;
+}
+.panel{
+    width: 360px;
+}
+.panel-header {
+    height: 26px;
+}
+.panel-header .panel-more a{
+    font-size: 26px;
+    color: #ffb400;
+    line-height: 26px;
+
+}
+.panel-header .panel-title a{
+    font-size: 14px;
+    color: #ffb400;
+    line-height: 26px;
+}
+.panel-header .panel-title{
+    padding-top: 7px;
+}
+
+.panel-content{
+    overflow: hidden;
+    width: 100%;
+    margin-top: 23px;
+}
+.ranking-wrapper .ranking-index-1{
+    width: 360px;
+    height: 196px;
+    border: 1px solid #efefef;
+}
+
+.ranking-index-1  .ranking-top-left img{
+    width: 140px;
+    height: 194px;
+}
+.ranking-top-right{
+    height: 194px;
+    line-height: 194px;
+    position: relative;
+    padding-left: 10px;
+    overflow: hidden;
+}
+.ranking-top-right-main{
+    display: inline-block;
+    line-height: 1;
+    vertical-align: middle;
+    width: 200px;
+}
+.ranking-top-right .ranking-top-moive-name{
+    height: 25px;
+    line-height: 25px;
+    font-size: 18px;
+    color: #333;
+}
+.ranking-top-right .ranking-release-time{
+    height: 16px;
+    line-height: 16px;
+    font-size: 16px;
+    margin-top: 12px;
+    color: #999;
+}
+.ranking-top-right .ranking-top-wish{
+    height: 14px;
+    line-height: 14px;
+    font-size: 14px;
+    margin-top: 12px;
+    color: #ffb400;
+}
+
+
+.ranking-index-2 .ranking-movie-name,
+.ranking-index-3 .ranking-movie-name{
+    display: block;
+    font-size: 18px;
+    color: #333;
+    margin-top: 8px;
+    margin-left: 10px;
+    margin-right: 10px;
+    max-width: 190px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    vertical-align: top;
+}
+.ranking-index-2 .ranking-num-info,
+.ranking-index-3 .ranking-num-info{
+    float: none;
+    display: inline-block;
+    font-size: 14px;
+    margin-top: 6px;
+    margin-left: 10px;
+    color: #fdb863;
+}
+
+
+.ranking-wrapper .ranking-index-2,.ranking-wrapper .ranking-index-3{
+    border: 1px solid #efefef;
+    position: relative;
+    width: 170px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 8px;
+}
+
+.ranking-index-2{
+    float: left;
+}
+.ranking-index-3{
+    float: right;
+}
+
+
+.ranking-index-4{
+    clear: both;
+}
+.ranking-index-4,
+.ranking-index-5,
+.ranking-index-6,
+.ranking-index-7,
+.ranking-index-8,
+.ranking-index-9,
+.ranking-index-10{
+    height: 55px;
+    width: 360px;
+}
+
+.normal-link{
+    display: block;
+    height: 55px;
+    line-height: 35px;
+    padding: 10px 0;
+    box-sizing: inherit;
+}
+.normal-link .ranking-index{
+    font-size: 18px;
+    color: #999;
+    font-style:italic;
+    display: inline-block;
+    width: 20px;
+}
+.normal-link .ranking-movie-name{
+    font-size: 16px;
+    color: #333;
+}
+.normal-link  .ranking-num-info{
+    float: right;
+    font-size: 14px;
+    color: #fdb863;
+}
+
+
+
+
+/* 主图 */
+.draggable{
+    width: 1600px;
+    margin: 0 auto;
+}
+.slick-track{
+    width: 1600px;
+    height: 440px;
+}
+.slick-track a{
+    display: block;
+    height: 440px;
+    width: 1600px;
+    background-image: url(../img/zhuye.png);
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+}
+
+
+/* 即将上映 */
+.movie-list-1{
+    margin: -29px 0 20px -25px;
+}
+.movie-list-1  dd{
+    margin: 30px 0 0 30px;
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+}
+.movie-list-1 div{
+    position: relative;
+    width: 160px;
+    height: 38.75px;
+    text-align: center;
+    line-height: 38.75px;
+    border: 1px solid rgb(204, 204, 204);
+    border-top:0 ;
+    cursor: pointer;
+}
+.movie-list-1 div a span{
+    color: #ef4238;
+}
+
+
+
+#panel-1 .penel-header span{
+    color: #2d98f3;
+}
+#panel-1 .movie-list-1 .movie-wish{
+    height: 34px;
+    color: #ffb400;
+    line-height: 34px;
+    text-align: left;
+    text-indent: 1em;
+    font-size: 14px;
+}
+#panel-1 .movie-list-1 .movie-detail-strong a{
+    display: inline-block;
+    height: 39px;
+    width: 76px;
+}
+#panel-1 .movie-list-1 .movie-detail-strong{
+    border-top:none ;
+}
+#panel-1 .movie-list-1 .movie-wish{
+    border-bottom: none;
+}
+#panel-1 .movie-list-1 .movie-detail-strong .movie-presale-sep{
+    border-right:1px solid rgb(204, 204, 204);
+}
+#panel-1 .movie-list-1 .movie-detail-strong .movie-presale-sep span{
+    color: rgb(204, 204, 204);
+}
+#panel-1 .movie-list-1 .movie-detail-strong a span{
+    color:#2d98f3;
+}
+#panel-1 .movie-list-1 .movie-rt{
+    border: none;
+    height: 34px;
+    line-height: 34px;
+    text-align: center;
+    font-size: 14px;
+    color: #999;
+}

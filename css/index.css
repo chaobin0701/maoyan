@@ -1,0 +1,262 @@
+.header{
+    height: 80px;
+    box-shadow: 1.5px 1.5px 1.5px #e4e4e4;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    background:rgb(255,255,255,0.95);
+}
+.header-layer-1{
+    height: 80px;
+}
+.header-layer{
+    height: 80px;
+    width: 1200px;
+    margin: 0 auto;
+}
+.header-layer h1{
+    width: 80px;
+}
+.header-layer .logo{
+    display:block;
+    line-height: 100em;
+    width: 133px;
+    height: 80px;
+    float: left;
+    background-image: url(../img/logo.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    overflow: hidden;
+    background-position-y: center;
+    
+}
+
+
+
+/* <!-- 下拉列表 --> */
+
+.address{
+    height: 80px;
+    float: left;
+}
+.user-address{
+    margin: 0 10px;
+    width: 70px;
+    height: 80px;
+    text-align: center;
+    line-height: 80px;
+    /* box-sizing: content-box; */
+    cursor:pointer;
+}
+.user-address .now-address{
+}
+.more-address ul{
+    display:none;
+    
+}
+.more-address ul li{
+    width: 70px;
+    height: 30px;
+    border-bottom:1px solid rgb(158, 158, 158);
+    border-right:1px solid rgb(158, 158, 158);
+    border-left:1px solid rgb(158, 158, 158);
+    text-align: center;
+    line-height: 30px;
+}
+.user-address:hover .more-address ul {
+    display: block;
+}
+.user-address:hover .now-address em{
+    transform:rotate(-180deg);
+}
+.user-address em{
+    font-size: 13px;
+}
+
+
+
+/* 列表 */
+.header-list{
+    height: 80px;
+    float: left;
+}
+.header-list ul li{
+    float: left;
+    display: block;
+    height: 80px;
+    width: 70px;
+    cursor: pointer;
+}
+.header-list ul li a{
+    float: left;
+    display: block;
+    height: 80px;
+    width: 70px;
+
+    text-align: center;
+    line-height: 80px;
+    cursor: pointer;
+}
+
+.header-list .one a{
+    background-color: #ef4238;
+    color: #fff;
+}
+
+.header-list .two a:hover{
+    color: #ef4238;
+}
+
+/* 右边布局 */
+
+    /* 用户区域 */
+.user-land{
+        width: 80px;
+        height: 80px;
+        padding: 0 10px;
+}
+.user-land .user-head{
+    width: 40px;
+    height: 40px;
+    background-image: url(../img/touxiang.png);
+    background-size: 40px 40px;
+    background-repeat: no-repeat;
+    margin: 20px 0;
+}
+.user-land span{
+    display: inline-block;
+    width: 20px;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+}
+.user-land em{
+    font-size: 13px;
+}
+
+    /* <!-- 搜索框 --> */
+.search {
+    margin: 20px 10px 0 0 ;
+    height: 40px;
+    
+}
+.search-layer{
+    width: 230px;
+    height: 40px;
+    position: relative;
+}
+.search input{
+    position: absolute;
+    left: 0px;
+    width: 230px;
+    height: 40px;
+    padding: 0 40px 0 20px;
+    border: 1px solid #ccc;
+    border-radius: 200px;
+    /* 背景透明 */
+    background-color:transparent;
+}
+.search span{
+    line-height: 40px;
+    margin-left: 20px;
+    color: #ccc;
+    display: inline-block;
+}
+.search a{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    right: 20px;
+}
+.search em{ 
+    display: block;
+    width: 40px;
+    height: 40px;
+    background: #ef4238;
+    border-radius: 1000px;    
+    font-size: 18px;
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+}
+/* APP */
+.download{
+    position: relative;
+    height: 80px;
+    width: 132px;
+    padding: 28px 0 0 0;
+    border:1px solid rgba(100,100,100,0);
+    border-top: 0;
+    border-bottom: 0;
+    text-align:center;
+    margin-right: 10px;
+    padding-right: 10px;
+}
+.download span em{
+    font-size: 13px;
+    line-height: 26px;
+    margin-left: 5px;
+   
+}
+.download span .icon-shouji{
+    font-size: 25px;
+    line-height: 24px;
+}
+.download .app{
+    font-size: 16px;
+    line-height: 24px;
+}
+
+    /* 下拉列表 */
+.download-down-list{
+    display: none;
+    width: 132px;
+    position: absolute;
+    top: 80px;
+    border-top: none;
+    border: 1px solid #dcd4d7;
+    border-top: 0;
+    left: -1px;
+    background: #fff;
+}
+.download-down-list img{
+    margin: 0 auto;
+    width: 100px;
+    height: 100px;
+    background: #000;
+    display: block;
+    margin-top: 20px;
+
+
+}
+.download-down-list span{
+    display: block;
+}
+.download-down-list .list1{
+    font-size: 14px;
+    margin-top: 10px;
+}
+.download-down-list .list2{
+    font-size: 14px;
+    color:#999;
+    margin-bottom: 10px;
+}
+
+/* 点击事件 */
+
+.download:hover{
+    display: block;
+    border: 1px solid #dcd4d7;
+    border-top: 0;
+    border-bottom: 0;
+}
+.download:hover  .icon-sanjiao1{
+    transform:rotate(-180deg);
+}
+
+.download:hover  .download-down-list{
+    display: block;
+}
+
+
+

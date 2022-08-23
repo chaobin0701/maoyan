@@ -1,0 +1,144 @@
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+div,
+ol,
+ul,
+li,
+dl,
+dt,
+dd,
+table,
+caption,
+tr,
+th,
+td,
+span,
+p,
+a,
+b,
+u,
+i,
+em,
+img,
+iframe,
+fieldset,
+form,
+label,
+legend,
+input,
+button,
+select,
+textarea {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+em{
+    font-style:normal;
+}
+ul,
+li {
+    list-style: none;
+}
+
+body {
+    font: 14px/1.5 "Microsoft YaHei", Arial, Tahoma, Helvetica, sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased !important;
+    max-width: 1920px;
+    margin: 0 auto;
+    color: #000;
+    font-family: 微软雅黑, 'Heiti SC', 黑体, Arial;
+    position: relative;
+    font-size: 14px;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+    height: 13px;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.5);
+    background-clip: padding-box;
+    border-radius: 5px;
+    min-height: 28px;
+}
+
+ul{
+    margin: 0%;
+    padding: 0%;
+    list-style: none;
+}
+img{
+    border: none;
+    vertical-align: middle;
+    /* 垂直居中*/
+}
+a{
+    color: #3c3c3c;
+    text-decoration: none;
+}
+
+i{
+   font-style: normal; 
+   /* 取消斜体 */
+}
+
+input{
+    margin: 0%;
+    padding: 0%;
+}
+
+button{
+    outline: none;s
+}
+table{
+    border-collapse: collapse;
+
+}
+th,td{
+    padding: 0;
+}
+.clearfix:after{
+    content: '';
+    display: block;
+    clear: both;
+    /* 清除浮动！（要记住） */
+}
+.fl{
+    float: left;
+    /* 左浮动 */
+}
+.fr{
+    float: right;
+    /* 右浮动 */
+}
+.ib{
+    display: inline-block;
+}
+.mt6{
+    margin-top: 6px;
+}
+.mb6{
+    margin-bottom: 6px;
+}
+.mb10{
+    margin-bottom: 10px;
+}
+.mt8{
+    margin-top: 8px;
+}
+.mb8{
+    margin-bottom: 8px;
+}
+.font15{
+    font-size: 15px;
+}

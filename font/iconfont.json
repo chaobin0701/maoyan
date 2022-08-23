@@ -1,0 +1,30 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "79648",
+      "name": "三角1",
+      "font_class": "sanjiao1",
+      "unicode": "f0122",
+      "unicode_decimal": 983330
+    },
+    {
+      "icon_id": "6003698",
+      "name": "手机",
+      "font_class": "shouji",
+      "unicode": "e621",
+      "unicode_decimal": 58913
+    },
+    {
+      "icon_id": "15993995",
+      "name": "放大镜",
+      "font_class": "fangdajing",
+      "unicode": "e62d",
+      "unicode_decimal": 58925
+    }
+  ]
+}
